@@ -18,7 +18,11 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
 
         val dummyList= mutableListOf<Usuario>()
-        dummyList.add(Usuario("https://www.facebook.com/photo.php?fbid=737591993262354&set=a.126238817731011&type=3&theater",
+        dummyList.add(Usuario("https://media.licdn.com/dms/image/C5603AQGu5DRBNfNBNg/profile-displayphoto-shrink_200_200/0?e=1580947200&v=beta&t=kbzfD8RnuUIjCAsPnqgFZ0Q5alyC_NTKGnOxh7mM3u8",
+            "Josue Durand","Software Developer, I love music, I wanna go to the movie"))
+        dummyList.add(Usuario("https://media.licdn.com/dms/image/C5603AQGu5DRBNfNBNg/profile-displayphoto-shrink_200_200/0?e=1580947200&v=beta&t=kbzfD8RnuUIjCAsPnqgFZ0Q5alyC_NTKGnOxh7mM3u8",
+            "Josue Durand","Software Developer, I love music, I wanna go to the movie"))
+        dummyList.add(Usuario("https://media.licdn.com/dms/image/C5603AQGu5DRBNfNBNg/profile-displayphoto-shrink_200_200/0?e=1580947200&v=beta&t=kbzfD8RnuUIjCAsPnqgFZ0Q5alyC_NTKGnOxh7mM3u8",
             "Josue Durand","Software Developer, I love music, I wanna go to the movie"))
 
         adapter.setListData(dummyList)
