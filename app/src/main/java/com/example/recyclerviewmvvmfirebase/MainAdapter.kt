@@ -29,7 +29,7 @@ class MainAdapter(private val context: Context) :
 
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
         val user = dataList[position]
-
+        holder.bindView(user)
     }
 
     inner class MainViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
