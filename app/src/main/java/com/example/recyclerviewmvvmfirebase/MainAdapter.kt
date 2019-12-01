@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 
 class MainAdapter(private val context: Context) :
@@ -12,7 +13,6 @@ class MainAdapter(private val context: Context) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.item_row, parent, false)
-
         return MainViewHolder(view)
     }
 
@@ -25,6 +25,8 @@ class MainAdapter(private val context: Context) :
     }
 
     inner class MainViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
+        fun bindView(user:Usuario){
+            Glide.with(context)
+        }
     }
 }
