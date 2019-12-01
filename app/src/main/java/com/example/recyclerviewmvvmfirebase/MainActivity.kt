@@ -17,5 +17,12 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter
 
+        val dummyList= mutableListOf<Usuario>()
+        dummyList.add(Usuario("https://www.facebook.com/photo.php?fbid=737591993262354&set=a.126238817731011&type=3&theater",
+            "Josue Durand","Software Developer, I love music, I wanna go to the movie"))
+
+        adapter.setListData(dummyList)
+        adapter.notifyDataSetChanged()
+
     }
 }
