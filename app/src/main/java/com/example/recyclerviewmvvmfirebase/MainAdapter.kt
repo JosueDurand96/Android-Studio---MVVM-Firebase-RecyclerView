@@ -24,7 +24,7 @@ class MainAdapter(private val context: Context) :
     }
 
     override fun getItemCount(): Int {
-
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
