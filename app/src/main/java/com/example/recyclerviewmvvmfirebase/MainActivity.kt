@@ -18,11 +18,11 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
 
         val dummyList= mutableListOf<Usuario>()
-        dummyList.add(Usuario("https://media.licdn.com/dms/image/C5603AQGu5DRBNfNBNg/profile-displayphoto-shrink_200_200/0?e=1580947200&v=beta&t=kbzfD8RnuUIjCAsPnqgFZ0Q5alyC_NTKGnOxh7mM3u8",
+        dummyList.add(Usuario("https://1.bp.blogspot.com/-5joOd2PWBI4/U_tWLWpwgiI/AAAAAAAAjE4/6lYPmYQDhgs/s1600/harvey-specter-look.jpg",
             "Josue Durand","Software Developer, I love music, I wanna go to the movie"))
-        dummyList.add(Usuario("https://media.licdn.com/dms/image/C5603AQGu5DRBNfNBNg/profile-displayphoto-shrink_200_200/0?e=1580947200&v=beta&t=kbzfD8RnuUIjCAsPnqgFZ0Q5alyC_NTKGnOxh7mM3u8",
+        dummyList.add(Usuario("https://1.bp.blogspot.com/-5joOd2PWBI4/U_tWLWpwgiI/AAAAAAAAjE4/6lYPmYQDhgs/s1600/harvey-specter-look.jpg",
             "Josue Durand","Software Developer, I love music, I wanna go to the movie"))
-        dummyList.add(Usuario("https://media.licdn.com/dms/image/C5603AQGu5DRBNfNBNg/profile-displayphoto-shrink_200_200/0?e=1580947200&v=beta&t=kbzfD8RnuUIjCAsPnqgFZ0Q5alyC_NTKGnOxh7mM3u8",
+        dummyList.add(Usuario("https://1.bp.blogspot.com/-5joOd2PWBI4/U_tWLWpwgiI/AAAAAAAAjE4/6lYPmYQDhgs/s1600/harvey-specter-look.jpg",
             "Josue Durand","Software Developer, I love music, I wanna go to the movie"))
 
         adapter.setListData(dummyList)

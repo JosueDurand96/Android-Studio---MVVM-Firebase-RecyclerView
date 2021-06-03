@@ -1,1 +1,3 @@
-# Android-Studio---MVVM-Firebase-RecyclerView
+# RecyclerView - Android
+
+![](recyclerview.gif)
